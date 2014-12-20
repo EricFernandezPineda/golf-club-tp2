@@ -1,0 +1,7 @@
+Pour importer un fichier SQL
+
+1.Ouvrir phpmyadmin à partir de ampps ou d'un programme semblable.
+2.Lorsque sur la page principale de la base de données, allez dans l'onglet importer.
+3.Vous devrez ensuite choisir le fichier .sql dans vos documents.
+4.Lorsque choisi, prenez le format sql dans la page de phpmyadmin.
+5.Cliquez sur executer.

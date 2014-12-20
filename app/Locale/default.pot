@@ -1,0 +1,1071 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-11-17 19:48+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/GolfClubsController.php:37;69;94
+msgid "Invalid golf club"
+msgstr ""
+
+#: Controller/GolfClubsController.php:52;73
+msgid "The golf club has been saved."
+msgstr ""
+
+#: Controller/GolfClubsController.php:55;76
+msgid "The golf club could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GolfClubsController.php:98
+msgid "The golf club has been deleted."
+msgstr ""
+
+#: Controller/GolfClubsController.php:100
+msgid "The golf club could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/LockersController.php:37;72;100
+msgid "Invalid locker"
+msgstr ""
+
+#: Controller/LockersController.php:52;76
+msgid "The locker has been saved."
+msgstr ""
+
+#: Controller/LockersController.php:55;79
+msgid "The locker could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/LockersController.php:104
+msgid "The locker has been deleted."
+msgstr ""
+
+#: Controller/LockersController.php:106
+msgid "The locker could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MembersController.php:37;72;100
+msgid "Invalid member"
+msgstr ""
+
+#: Controller/MembersController.php:52;76
+msgid "The member has been saved."
+msgstr ""
+
+#: Controller/MembersController.php:55;79
+msgid "The member could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MembersController.php:104
+msgid "The member has been deleted."
+msgstr ""
+
+#: Controller/MembersController.php:106
+msgid "The member could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MembersLockersController.php:37;72;100
+msgid "Invalid members locker"
+msgstr ""
+
+#: Controller/MembersLockersController.php:52;76
+msgid "The members locker has been saved."
+msgstr ""
+
+#: Controller/MembersLockersController.php:55;79
+msgid "The members locker could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MembersLockersController.php:104
+msgid "The members locker has been deleted."
+msgstr ""
+
+#: Controller/MembersLockersController.php:106
+msgid "The members locker could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ProfessionalsController.php:37;71;98
+msgid "Invalid professional"
+msgstr ""
+
+#: Controller/ProfessionalsController.php:52;75
+msgid "The professional has been saved."
+msgstr ""
+
+#: Controller/ProfessionalsController.php:55;78
+msgid "The professional could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ProfessionalsController.php:102
+msgid "The professional has been deleted."
+msgstr ""
+
+#: Controller/ProfessionalsController.php:104
+msgid "The professional could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:42
+#: Model/User.php:70
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: Controller/UsersController.php:66;102;138
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:81;117
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:120
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:145
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:149
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:176
+msgid "Invalid action"
+msgstr ""
+
+#: Controller/UsersController.php:219
+msgid "Remember password - "
+msgstr ""
+
+#: Controller/UsersController.php:239
+msgid "Link invalid"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr ""
+
+#: Plugin/I18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_add.ctp:17
+#: Plugin/I18n/View/Translations/admin_edit.ctp:19
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:40
+msgid "List Translations"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:3
+msgid "Be aware that your Translation and all associated data will be deleted if you confirm!"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:4
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_edit.ctp:18
+#: Plugin/I18n/View/Translations/admin_index.ctp:70
+#: View/GolfClubs/edit.ctp:19
+#: View/GolfClubs/index.ctp:22
+#: View/GolfClubs/view.ctp:68;105;146
+#: View/Lockers/edit.ctp:20
+#: View/Lockers/index.ctp:24
+#: View/Lockers/view.ctp:68
+#: View/Members/edit.ctp:21
+#: View/Members/index.ctp:26
+#: View/Members/view.ctp:71
+#: View/MembersLockers/edit.ctp:17
+#: View/MembersLockers/index.ctp:22
+#: View/Professionals/edit.ctp:22
+#: View/Professionals/index.ctp:30
+#: View/Users/index.ctp:33;64
+msgid "Delete"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_edit_multi.ctp:22
+#: Plugin/Install/View/Install/database.ctp:24
+#: View/Elements/form_users.ctp:20
+#: View/GolfClubs/add.ctp:12
+#: View/GolfClubs/edit.ctp:13
+#: View/Lockers/add.ctp:13
+#: View/Lockers/edit.ctp:14
+#: View/Members/add.ctp:14
+#: View/Members/edit.ctp:15
+#: View/MembersLockers/add.ctp:10
+#: View/MembersLockers/edit.ctp:11
+#: View/Professionals/add.ctp:15
+#: View/Professionals/edit.ctp:16
+#: View/Users/_form.ctp:29
+msgid "Submit"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:6
+#: View/GolfClubs/index.ctp:30
+#: View/Lockers/index.ctp:32
+#: View/Members/index.ctp:34
+#: View/MembersLockers/index.ctp:30
+#: View/Professionals/index.ctp:38
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:23
+#: Plugin/I18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:26
+#: Plugin/I18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:40
+#: View/GolfClubs/add.ctp:15
+#: View/GolfClubs/edit.ctp:16
+#: View/GolfClubs/index.ctp:10;42
+#: View/GolfClubs/view.ctp:32;56;92;131
+#: View/Lockers/add.ctp:16
+#: View/Lockers/edit.ctp:17
+#: View/Lockers/index.ctp:10;44
+#: View/Lockers/view.ctp:32;55
+#: View/Members/add.ctp:17
+#: View/Members/edit.ctp:18
+#: View/Members/index.ctp:11;46
+#: View/Members/view.ctp:37;59
+#: View/MembersLockers/add.ctp:13
+#: View/MembersLockers/edit.ctp:14
+#: View/MembersLockers/index.ctp:8;42
+#: View/MembersLockers/view.ctp:22
+#: View/Professionals/add.ctp:18
+#: View/Professionals/edit.ctp:19
+#: View/Professionals/index.ctp:13;50
+#: View/Professionals/view.ctp:47
+msgid "Actions"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:67
+#: View/GolfClubs/index.ctp:20
+#: View/GolfClubs/view.ctp:66;103;144
+#: View/Lockers/index.ctp:22
+#: View/Lockers/view.ctp:66
+#: View/Members/index.ctp:24
+#: View/Members/view.ctp:69
+#: View/MembersLockers/index.ctp:20
+#: View/Professionals/index.ctp:28
+#: View/Users/index.ctp:30
+msgid "View"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:68
+#: View/GolfClubs/index.ctp:21
+#: View/GolfClubs/view.ctp:67;104;145
+#: View/Lockers/index.ctp:23
+#: View/Lockers/view.ctp:67
+#: View/Members/index.ctp:25
+#: View/Members/view.ctp:70
+#: View/MembersLockers/index.ctp:21
+#: View/Professionals/index.ctp:29
+#: View/Users/index.ctp:31
+msgid "Edit"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_index.ctp:80
+#: Plugin/I18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:4
+#: View/GolfClubs/view.ctp:4;51;86;123
+#: View/Lockers/view.ctp:4;49
+#: View/Members/view.ctp:4;54
+#: View/MembersLockers/view.ctp:4
+#: View/Professionals/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr ""
+
+#: Plugin/I18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:46
+msgid "Already Installed"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:61
+msgid "Installation: Welcome"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:75
+msgid "Step 1: Database"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:87;162
+msgid "File database.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:102
+msgid "Step 2: Build database"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:109
+msgid "Warning: Database \"%s\" is not empty."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:115
+msgid "Structure of the database successfully created."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:154
+msgid "Step 4: Config"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:158
+msgid "File config.php created successfully."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:177
+msgid "Installation successful"
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:211
+msgid "Could not write database.php file."
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:220
+msgid "Could not connect to database: "
+msgstr ""
+
+#: Plugin/Install/Controller/InstallController.php:225
+msgid "Could not connect to database."
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:7
+msgid "Step 3: Create Admin User"
+msgstr ""
+
+#: Plugin/Install/View/Install/adminuser.ctp:16
+#: Plugin/Install/View/Install/config.ctp:16
+msgid "Save"
+msgstr ""
+
+#: Plugin/Install/View/Install/config.ctp:3
+msgid "Step 4: Create Config"
+msgstr ""
+
+#: Plugin/Install/View/Install/config.ctp:9
+msgid "Digite as palavras separadas por virgula ex: CakeStrap,CakePhp"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:3
+msgid "Create tables"
+msgstr ""
+
+#: Plugin/Install/View/Install/data.ctp:8
+#: Plugin/Install/View/Install/finish.ctp:13
+msgid "Build database"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:4
+msgid "The user %s has been created with administrative rights.<br>"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:6
+msgid "Visit their website: %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:11
+msgid "Check for restrictions"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:12
+msgid "Create Database file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:14
+msgid "Create the initial user system"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:15
+msgid "Create the configuration file"
+msgstr ""
+
+#: Plugin/Install/View/Install/finish.ctp:16
+msgid "Visit their website"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:8
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:11
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:16
+msgid "Your config directory is writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:19
+msgid "Your config directory is NOT writable."
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:27
+msgid "PHP version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:30
+msgid "PHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:38
+msgid "CakePhp version %s %s %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:41
+msgid "CakePHP version %s < %s"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:48
+msgid "Install"
+msgstr ""
+
+#: Plugin/Install/View/Install/index.ctp:50
+msgid "Installation cannot continue as minimum requirements are not met."
+msgstr ""
+
+#: Plugin/Install/View/Layouts/default.ctp:6
+msgid "CakeStrap"
+msgstr ""
+
+#: View/Elements/form_login.ctp:12
+#: View/Elements/form_users.ctp:8
+#: View/Users/_form.ctp:14
+msgid "Email"
+msgstr ""
+
+#: View/Elements/form_login.ctp:13
+#: View/Elements/form_users.ctp:12
+#: View/Users/_form.ctp:18
+msgid "Password"
+msgstr ""
+
+#: View/Elements/form_login.ctp:15
+#: View/Users/remember_password.ctp:7
+msgid "Forgot your password?"
+msgstr ""
+
+#: View/Elements/form_login.ctp:19
+msgid "Remember me"
+msgstr ""
+
+#: View/Elements/form_login.ctp:22
+msgid "Login"
+msgstr ""
+
+#: View/Elements/form_users.ctp:4
+#: View/Users/_form.ctp:10
+#: View/Users/index.ctp:18
+msgid "Username"
+msgstr ""
+
+#: View/Elements/form_users.ctp:16
+#: View/Users/_form.ctp:24
+#: View/Users/index.ctp:19
+msgid "Role"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Admin"
+msgstr ""
+
+#: View/Elements/form_users.ctp:17
+#: View/Users/_form.ctp:25
+msgid "Author"
+msgstr ""
+
+#: View/Emails/html/remember_password.ctp:3
+msgid "Register new password"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:4
+msgid "Add Golf Club"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:18
+#: View/GolfClubs/edit.ctp:20
+#: View/GolfClubs/view.ctp:36
+#: View/Lockers/add.ctp:20
+#: View/Lockers/edit.ctp:22
+#: View/Lockers/index.ctp:47
+#: View/Lockers/view.ctp:38
+#: View/Members/add.ctp:21
+#: View/Members/edit.ctp:23
+#: View/Members/index.ctp:49
+#: View/Members/view.ctp:43
+#: View/Professionals/add.ctp:22
+#: View/Professionals/edit.ctp:24
+#: View/Professionals/index.ctp:53
+#: View/Professionals/view.ctp:53
+msgid "List Golf Clubs"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:19
+#: View/GolfClubs/edit.ctp:21
+#: View/GolfClubs/index.ctp:45
+#: View/GolfClubs/view.ctp:38
+#: View/Lockers/add.ctp:19
+#: View/Lockers/edit.ctp:21
+#: View/Lockers/view.ctp:36
+#: View/Members/add.ctp:23
+#: View/Members/edit.ctp:25
+#: View/Members/index.ctp:51
+#: View/Members/view.ctp:45
+#: View/MembersLockers/add.ctp:19
+#: View/MembersLockers/edit.ctp:21
+#: View/MembersLockers/index.ctp:47
+#: View/MembersLockers/view.ctp:30
+msgid "List Lockers"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:20
+#: View/GolfClubs/edit.ctp:22
+#: View/GolfClubs/index.ctp:46
+#: View/GolfClubs/view.ctp:39;77
+#: View/Lockers/index.ctp:46
+#: View/Lockers/view.ctp:37
+#: View/Members/add.ctp:24
+#: View/Members/edit.ctp:26
+#: View/Members/index.ctp:52
+#: View/Members/view.ctp:46;80
+#: View/MembersLockers/add.ctp:20
+#: View/MembersLockers/edit.ctp:22
+#: View/MembersLockers/index.ctp:48
+#: View/MembersLockers/view.ctp:31
+msgid "New Locker"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:21
+#: View/GolfClubs/edit.ctp:23
+#: View/GolfClubs/index.ctp:47
+#: View/GolfClubs/view.ctp:40
+#: View/Lockers/add.ctp:22
+#: View/Lockers/edit.ctp:24
+#: View/Lockers/index.ctp:49
+#: View/Lockers/view.ctp:40
+#: View/Members/add.ctp:20
+#: View/Members/edit.ctp:22
+#: View/Members/view.ctp:41
+#: View/MembersLockers/add.ctp:17
+#: View/MembersLockers/edit.ctp:19
+#: View/MembersLockers/index.ctp:45
+#: View/MembersLockers/view.ctp:28
+msgid "List Members"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:22
+#: View/GolfClubs/edit.ctp:24
+#: View/GolfClubs/index.ctp:48
+#: View/GolfClubs/view.ctp:41;114
+#: View/Lockers/add.ctp:23
+#: View/Lockers/edit.ctp:25
+#: View/Lockers/index.ctp:50
+#: View/Lockers/view.ctp:41;77
+#: View/Members/index.ctp:48
+#: View/Members/view.ctp:42
+#: View/MembersLockers/add.ctp:18
+#: View/MembersLockers/edit.ctp:20
+#: View/MembersLockers/index.ctp:46
+#: View/MembersLockers/view.ctp:29
+msgid "New Member"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:23
+#: View/GolfClubs/edit.ctp:25
+#: View/GolfClubs/index.ctp:49
+#: View/GolfClubs/view.ctp:42
+#: View/Professionals/add.ctp:21
+#: View/Professionals/edit.ctp:23
+#: View/Professionals/view.ctp:51
+msgid "List Professionals"
+msgstr ""
+
+#: View/GolfClubs/add.ctp:24
+#: View/GolfClubs/edit.ctp:26
+#: View/GolfClubs/index.ctp:50
+#: View/GolfClubs/view.ctp:43;155
+#: View/Professionals/index.ctp:52
+#: View/Professionals/view.ctp:52
+msgid "New Professional"
+msgstr ""
+
+#: View/GolfClubs/edit.ctp:4
+#: View/GolfClubs/view.ctp:34
+msgid "Edit Golf Club"
+msgstr ""
+
+#: View/GolfClubs/edit.ctp:19
+#: View/GolfClubs/index.ctp:22
+#: View/GolfClubs/view.ctp:35;68;105;146
+#: View/Lockers/edit.ctp:20
+#: View/Lockers/index.ctp:24
+#: View/Lockers/view.ctp:35;68
+#: View/Members/edit.ctp:21
+#: View/Members/index.ctp:26
+#: View/Members/view.ctp:40;71
+#: View/MembersLockers/edit.ctp:17
+#: View/MembersLockers/index.ctp:22
+#: View/MembersLockers/view.ctp:25
+#: View/Professionals/edit.ctp:22
+#: View/Professionals/index.ctp:30
+#: View/Professionals/view.ctp:50
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/GolfClubs/index.ctp:2
+msgid "Golf Clubs"
+msgstr ""
+
+#: View/GolfClubs/index.ctp:35
+#: View/Lockers/index.ctp:37
+#: View/Members/index.ctp:39
+#: View/MembersLockers/index.ctp:35
+#: View/Professionals/index.ctp:43
+msgid "previous"
+msgstr ""
+
+#: View/GolfClubs/index.ctp:37
+#: View/Lockers/index.ctp:39
+#: View/Members/index.ctp:41
+#: View/MembersLockers/index.ctp:37
+#: View/Professionals/index.ctp:45
+msgid "next"
+msgstr ""
+
+#: View/GolfClubs/index.ctp:44
+#: View/GolfClubs/view.ctp:37
+#: View/Lockers/add.ctp:21
+#: View/Lockers/edit.ctp:23
+#: View/Lockers/index.ctp:48
+#: View/Lockers/view.ctp:39
+#: View/Members/add.ctp:22
+#: View/Members/edit.ctp:24
+#: View/Members/index.ctp:50
+#: View/Members/view.ctp:44
+#: View/Professionals/add.ctp:23
+#: View/Professionals/edit.ctp:25
+#: View/Professionals/index.ctp:54
+#: View/Professionals/view.ctp:54
+msgid "New Golf Club"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:2
+#: View/Lockers/view.ctp:9
+#: View/Members/view.ctp:9
+#: View/Professionals/view.ctp:9
+msgid "Golf Club"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:9
+msgid "Club Name"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:14
+msgid "Year Established"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:19
+msgid "Club Adress"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:24
+msgid "Other Club Details"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:35
+msgid "Delete Golf Club"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:47
+#: View/Members/view.ctp:50
+msgid "Related Lockers"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:52;87;124
+#: View/Lockers/view.ctp:50
+#: View/Members/view.ctp:55
+msgid "Golf Club Id"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:53
+#: View/Lockers/view.ctp:14
+#: View/Members/view.ctp:56
+msgid "Locker Location"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:54
+#: View/Lockers/view.ctp:19
+#: View/Members/view.ctp:57
+msgid "Locker Rental Amount"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:55
+#: View/Lockers/view.ctp:24
+#: View/Members/view.ctp:58
+msgid "Other Locker Details"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:82
+#: View/Lockers/view.ctp:45
+msgid "Related Members"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:88
+#: View/Lockers/view.ctp:51
+#: View/Members/view.ctp:14
+msgid "Member First Name"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:89
+#: View/Lockers/view.ctp:52
+#: View/Members/view.ctp:19
+msgid "Member Last Name"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:90
+#: View/Lockers/view.ctp:53
+#: View/Members/view.ctp:24
+msgid "Member Email"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:91
+#: View/Lockers/view.ctp:54
+#: View/Members/view.ctp:29
+msgid "Member Address"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:119
+msgid "Related Professionals"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:125
+#: View/Professionals/view.ctp:14
+msgid "Date Of Birth"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:126
+#: View/Professionals/view.ctp:19
+msgid "Gender"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:127
+#: View/Professionals/view.ctp:24
+msgid "Pro First Name"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:128
+#: View/Professionals/view.ctp:29
+msgid "Pro Last Name"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:129
+#: View/Professionals/view.ctp:34
+msgid "Other Pro Details"
+msgstr ""
+
+#: View/GolfClubs/view.ctp:130
+#: View/Professionals/view.ctp:39
+msgid "Courriel"
+msgstr ""
+
+#: View/Lockers/add.ctp:4
+msgid "Add Locker"
+msgstr ""
+
+#: View/Lockers/edit.ctp:4
+#: View/Lockers/view.ctp:34
+msgid "Edit Locker"
+msgstr ""
+
+#: View/Lockers/index.ctp:2
+msgid "Lockers"
+msgstr ""
+
+#: View/Lockers/view.ctp:2
+#: View/MembersLockers/view.ctp:14
+msgid "Locker"
+msgstr ""
+
+#: View/Lockers/view.ctp:35
+msgid "Delete Locker"
+msgstr ""
+
+#: View/Members/add.ctp:4
+msgid "Add Member"
+msgstr ""
+
+#: View/Members/edit.ctp:4
+#: View/Members/view.ctp:39
+msgid "Edit Member"
+msgstr ""
+
+#: View/Members/index.ctp:2
+msgid "Members"
+msgstr ""
+
+#: View/Members/view.ctp:2
+#: View/MembersLockers/view.ctp:9
+msgid "Member"
+msgstr ""
+
+#: View/Members/view.ctp:40
+msgid "Delete Member"
+msgstr ""
+
+#: View/MembersLockers/add.ctp:4
+msgid "Add Members Locker"
+msgstr ""
+
+#: View/MembersLockers/add.ctp:16
+#: View/MembersLockers/edit.ctp:18
+#: View/MembersLockers/view.ctp:26
+msgid "List Members Lockers"
+msgstr ""
+
+#: View/MembersLockers/edit.ctp:4
+#: View/MembersLockers/view.ctp:24
+msgid "Edit Members Locker"
+msgstr ""
+
+#: View/MembersLockers/index.ctp:2
+msgid "Members Lockers"
+msgstr ""
+
+#: View/MembersLockers/index.ctp:44
+#: View/MembersLockers/view.ctp:27
+msgid "New Members Locker"
+msgstr ""
+
+#: View/MembersLockers/view.ctp:2
+msgid "Members Locker"
+msgstr ""
+
+#: View/MembersLockers/view.ctp:25
+msgid "Delete Members Locker"
+msgstr ""
+
+#: View/Professionals/add.ctp:4
+msgid "Add Professional"
+msgstr ""
+
+#: View/Professionals/edit.ctp:4
+#: View/Professionals/view.ctp:49
+msgid "Edit Professional"
+msgstr ""
+
+#: View/Professionals/index.ctp:2
+msgid "Professionals"
+msgstr ""
+
+#: View/Professionals/view.ctp:2
+msgid "Professional"
+msgstr ""
+
+#: View/Professionals/view.ctp:50
+msgid "Delete Professional"
+msgstr ""
+
+#: View/Users/change_password.ctp:3
+msgid "Change password"
+msgstr ""
+
+#: View/Users/change_password.ctp:11
+msgid "New password"
+msgstr ""
+
+#: View/Users/change_password.ctp:12
+msgid "Confirm new password"
+msgstr ""
+
+#: View/Users/change_password.ctp:13
+msgid "Change my password"
+msgstr ""
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/index.ctp:4
+#: View/Users/register.ctp:2
+msgid "Add User"
+msgstr ""
+
+#: View/Users/index.ctp:57
+msgid "Remove user"
+msgstr ""
+
+#: View/Users/index.ctp:60
+msgid "Are you sure you want to delete the user "
+msgstr ""
+
+#: View/Users/index.ctp:63
+msgid "Cancel"
+msgstr ""
+
+#: View/Users/remember_password.ctp:9
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: View/Users/remember_password.ctp:12
+msgid "E-mail"
+msgstr ""
+
+#: View/Users/remember_password.ctp:13
+msgid "Email address"
+msgstr ""
+
+#: View/Users/remember_password.ctp:15
+msgid "Next step"
+msgstr ""
+
+#: Model/GolfClub.php:validation for field club_name;validation for field club_adress;validation for field other_club_details
+#: Model/Locker.php:validation for field locker_location
+#: Model/Member.php:validation for field member_first_name;validation for field member_last_name;validation for field member_email;validation for field member_address
+msgid "notempty"
+msgstr ""
+
+#: Model/GolfClub.php:validation for field year_established
+#: Model/Locker.php:validation for field other_locker_details
+msgid "date"
+msgstr ""
+
+#: Model/Locker.php:validation for field golf_club_id
+#: Model/Member.php:validation for field golf_club_id
+#: Model/MembersLocker.php:validation for field member_id;validation for field locker_id
+#: Model/Professional.php:validation for field golf_club_id
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "A username is required."
+msgstr ""
+
+#: Model/User.php:validation for field username;validation for field email
+msgid "This user already exists."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Invalid email."
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr ""
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:validation for field locale
+msgid "Please enter a Locale"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:validation for field model
+msgid "Please enter a Model"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:validation for field foreign_key
+msgid "Please enter a Foreign Key"
+msgstr ""
+
+#: Plugin/I18n/Model/Translation.php:validation for field field
+msgid "Please enter a Field"
+msgstr ""
+
