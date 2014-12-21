@@ -58,9 +58,9 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'mysql',
+		'host' => 'https://ericfernandezpineda-tp3eric.rhcloud.com/phpmyadmin/',
+		'login' => 'adminfSjIp2Y',
+		'password' => 'ZndS-TvVuErE',
 		'database' => 'golf_club_management',
 		'prefix' => '',
 		'encoding' => 'UTF8',
