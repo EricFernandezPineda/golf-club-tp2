@@ -9,7 +9,8 @@
 		echo $this->Form->input('pro_first_name');
 		echo $this->Form->input('pro_last_name');
 		echo $this->Form->input('other_pro_details');
-		echo $this->Form->input('Courriel');
+		echo $this->Form->input('Courriel',array('class' => 'ui-autocomplete',
+               'id' => 'autocomplete'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
@@ -23,3 +24,11 @@
 		<li><?php echo $this->Html->link(__('New Golf Club'), array('controller' => 'golf_clubs', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<?php
+		    //let's load jquery libs from google
+		  $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', array('inline' => false));
+		  $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js', array('inline' => false));
+		
+		  //load file for this view to work on 'autocomplete' field
+		  $this->Html->script('View/Professionals/add', array('inline' => false));
+		  ?>

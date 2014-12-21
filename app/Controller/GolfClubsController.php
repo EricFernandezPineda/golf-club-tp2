@@ -55,6 +55,10 @@ class GolfClubsController extends AppController {
 				$this->Session->setFlash(__('The golf club could not be saved. Please, try again.'), array ('class' => 'alert alert-danger'));
 			}
 		}
+		$categories = $this->GolfClub->Subcategory->Category->find('list');
+        $subcategories = $this->GolfClub->Subcategory->find('list');
+        //$subcategories = array('choisir categorie');
+        $this->set(compact('categories', 'subcategories'));
 	}
 
 /**

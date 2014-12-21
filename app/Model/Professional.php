@@ -1,3 +1,4 @@
+
 <?php
 App::uses('AppModel', 'Model');
 /**
@@ -41,4 +42,19 @@ class Professional extends AppModel {
 			'order' => ''
 		)
 	);
+	
+	public function getProfessionalNames ($term = null) {
+      if(!empty($term)) {
+        $Professionals = $this->find('list', array(
+          'conditions' => array(
+            'name LIKE' => trim($term) . '%'
+          )
+        ));
+        return $Professionals;
+      }
+      return false;
+    }
 }
+
+
+

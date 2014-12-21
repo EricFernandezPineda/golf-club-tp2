@@ -46,6 +46,12 @@ class ProfessionalsController extends AppController {
  * @return void
  */
 	public function add() {
+		if ($this->request->is('ajax')) {
+                    $term = $this->request->query('term');
+                    $Professionals = $this->Professional->getProfessionalNames($term);
+                    $this->set(compact('professionalNames'));
+                    $this->set('_serialize', 'professionalNames');
+                }
 		if ($this->request->is('post')) {
 			$this->Professional->create();
 			if ($this->Professional->save($this->request->data)) {
@@ -57,6 +63,7 @@ class ProfessionalsController extends AppController {
 		}
 		$golfClubs = $this->Professional->GolfClub->find('list');
 		$this->set(compact('golfClubs'));
+		
 	}
 
 /**
