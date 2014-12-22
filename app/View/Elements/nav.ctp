@@ -8,10 +8,12 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<?php echo $this->Html->link(
-			Configure::read('Application.name'),
-			AuthComponent::user('id') ? "/home" : "/"
-			, array('class' => 'navbar-brand')) ?>
+		<?php 
+		echo $this->Html->image("golf_club_logo.svg", array(
+		"alt"=>"logo SVG",
+		"class"=>"container",
+		"url"=>array('controller'=>'Pages','action'=>'about',6)));
+	?>
 	</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->

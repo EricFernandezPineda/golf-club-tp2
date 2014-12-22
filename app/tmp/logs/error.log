@@ -419,3 +419,459 @@ Stack Trace:
 #20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #21 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #22 {main}
+2014-12-22 02:41:27 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/golfclubs
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Component\PaginatorComponent.php(198): Model->find('all', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(25): PaginatorComponent->paginate()
+#10 [internal function]: GolfclubsController->index()
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfclubsController), Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfclubsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-12-22 02:41:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php, line 58]
+2014-12-22 02:41:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakeStrap-master/golfclubs/add
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\Bardoc...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\Bardoc...', 58, Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\Bardoc...', 58, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 02:42:39 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/golfclubs
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Component\PaginatorComponent.php(198): Model->find('all', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(25): PaginatorComponent->paginate()
+#10 [internal function]: GolfclubsController->index()
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfclubsController), Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfclubsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-12-22 02:51:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:52:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:53:25 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:54:37 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:54:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/view/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(40): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->view('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:54:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/view/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(40): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->view('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:56:29 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/view/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(40): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->view('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 02:56:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:01:20 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:02:18 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:08:15 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/view/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(40): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->view('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:13:01 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:16:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:16:59 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:17:57 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:18:33 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:19:03 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:23:21 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:24:12 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:25:02 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:25:05 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:26:15 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:26:29 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:31:45 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:41:49 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:42:37 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:42:40 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:42:41 Error: [MissingControllerException] Controller class InformationsController could not be found.
+Exception Attributes: array (
+  'class' => 'InformationsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeStrap-master/eng/informations/about
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-22 03:45:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Subcategory.subcategory_id
+Request URL: /cakeStrap-master/eng/golfclubs/edit/2
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(458): PDO->prepare('SELECT "Subcate...', Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Subcate...', Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Subcate...', Array, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT "Subcate...', false)
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(GolfClub), 'SELECT "Subcate...', Array)
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(GolfClub), Object(Subcategory), 'hasMany', 'Subcategory', Array, Array, true, Array, 0, Array)
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2750): DboSource->read(Object(GolfClub), Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2722): Model->_readDataSource('first', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\GolfclubsController.php(84): Model->find('first', Array)
+#9 [internal function]: GolfClubsController->edit('2')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(GolfClubsController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 03:56:47 Error: Fatal Error (4): syntax error, unexpected 'internet' (T_STRING), expecting ',' or ';' in [C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Pages\about.ctp, line 2]
+2014-12-22 03:56:47 Error: [FatalErrorException] syntax error, unexpected 'internet' (T_STRING), expecting ',' or ';'
+Request URL: /cakeStrap-master/eng/Pages/about/6
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\Users\\Bardoc...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\Users\\Bardoc...', 2, Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\Users\\Bardoc...', 2, Array)
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-22 04:04:42 Error: [MissingActionException] Action PagesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'img',
+)
+Request URL: /cakeStrap-master/eng/Pages/img/golf_club_management.gif
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

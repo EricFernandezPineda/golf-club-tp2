@@ -6,7 +6,7 @@ App::uses('AppController', 'Controller');
  * @property GolfClub $GolfClub
  * @property PaginatorComponent $Paginator
  */
-class GolfclubsController extends AppController {
+class GolfClubsController extends AppController {
 
 /**
  * Components
@@ -83,6 +83,8 @@ class GolfclubsController extends AppController {
 			$options = array('conditions' => array('GolfClub.' . $this->GolfClub->primaryKey => $id));
 			$this->request->data = $this->GolfClub->find('first', $options);
 		}
+		$subcategories = $this->GolfClub->Subcategory->find('list');
+        $this->set(compact('subcategories'));
 	}
 
 /**
