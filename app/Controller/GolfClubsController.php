@@ -6,7 +6,7 @@ App::uses('AppController', 'Controller');
  * @property GolfClub $GolfClub
  * @property PaginatorComponent $Paginator
  */
-class GolfClubsController extends AppController {
+class GolfclubsController extends AppController {
 
 /**
  * Components
