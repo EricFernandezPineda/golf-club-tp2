@@ -53,19 +53,17 @@
  * unix_socket =>
  * For MySQL to connect via socket specify the `unix_socket` parameter instead of `host` and `port`
  */
+define('DEFAULT_DB', APP.DS.'sqlite'.DS.'default.sqlite');
+
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'https://ericfernandezpineda-tp3eric.rhcloud.com/phpmyadmin/',
-		'login' => 'adminfSjIp2Y',
-		'password' => 'ZndS-TvVuErE',
-		'database' => 'golf_club_management',
-		'prefix' => '',
-		'encoding' => 'UTF8',
-		'port' => '',
-	);
+        'datasource' => 'Database/Sqlite',
+        'persistent' => false,
+        'database' => DEFAULT_DB,
+        'prefix' => '',
+        
+    );
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',

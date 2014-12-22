@@ -182,3 +182,240 @@ Stack Trace:
 #12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(GolfClubsController), Object(CakeRequest), Object(CakeResponse))
 #13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2014-12-22 00:30:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ',
+  'enabled' => true,
+)
+Request URL: /cakeStrap-master/home
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2862): Model->getDataSource()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2782): Model->_findCount('before', Array)
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(2717): Model->buildQuery('count', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\Controller\PagesController.php(64): Model->find('count')
+#9 [internal function]: PagesController->index()
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-12-22 00:54:26 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ',
+  'enabled' => true,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#21 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2014-12-22 01:54:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ',
+  'enabled' => true,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#21 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2014-12-22 01:54:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ',
+  'enabled' => true,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#21 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
+2014-12-22 01:54:16 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-12-22 01:54:22 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-12-22 01:54:23 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-12-22 01:58:52 Error: [MissingConnectionException] Database connection "Sqlite" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Sqlite',
+  'message' => 'SQLSTATE[HY000] [14] unable to open database file',
+  'enabled' => true,
+)
+Request URL: /cakeStrap-master/
+Stack Trace:
+#0 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Datasource\DboSource.php(262): Sqlite->connect()
+#1 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#6 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#7 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Helper\CakeStrapFormHelper.php(19): FormHelper->create('User', Array)
+#9 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Elements\form_login.ctp(6): CakeStrapFormHelper->create('User', Array)
+#10 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#11 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#12 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(1191): View->_render('C:\\Users\\Bardoc...', Array)
+#13 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(408): View->_renderElement('C:\\Users\\Bardoc...', Array, Array)
+#14 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\View\Users\login.ctp(2): View->element('form_login')
+#15 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(931): include('C:\\Users\\Bardoc...')
+#16 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(893): View->_evaluate('C:\\Users\\Bardoc...', Array)
+#17 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\View\View.php(462): View->_render('C:\\Users\\Bardoc...')
+#18 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#19 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#20 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#21 C:\Users\Bardock\Downloads\UniServerZ\www\cakeStrap-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#22 {main}
